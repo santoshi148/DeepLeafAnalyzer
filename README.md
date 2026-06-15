@@ -390,7 +390,7 @@ Severity      : Severe
 ```bibtex
 @article{DeepLeafAnalyzer2026,
   title={DeepLeafAnalyzer: A Hybrid Deep Learning Framework for ROI-Optimized Multi-Scale Leaf Disease Detection},
-  author={Author Names},
+  author={santoshi},
   journal={Under Review},
   year={2026}
 }
@@ -410,6 +410,3 @@ We acknowledge the PlantVillage, FieldPlant, and AI Challenger communities for p
 
 ---
 
-##  Contact
-
-For research collaboration, implementation support, or issue reporting, please create a GitHub Issue in this repository.
