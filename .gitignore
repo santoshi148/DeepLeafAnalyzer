@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+outputs/checkpoints/*.pth
+outputs/**/*.pt
+data/raw/
+data/processed/
+.env
+.DS_Store
