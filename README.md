@@ -1,4 +1,4 @@
-
+https://doi.org/10.5281/zenodo.20702839
 # DeepLeafAnalyzer
 
 ## DeepLeafAnalyzer: A Hybrid Deep Learning Framework for ROI-Optimized Multi-Scale Leaf Disease Detection
