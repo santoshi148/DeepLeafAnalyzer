@@ -1,12 +1,7 @@
-# 🌿 DeepLeafAnalyzer
+
+# DeepLeafAnalyzer
 
 ## DeepLeafAnalyzer: A Hybrid Deep Learning Framework for ROI-Optimized Multi-Scale Leaf Disease Detection
-
-DeepLeafAnalyzer is a hybrid deep learning framework developed for accurate and robust plant leaf disease detection under both laboratory-controlled and real-world agricultural environments.
-
-The framework integrates dual-stage Region of Interest (ROI) optimization, multi-scale feature learning, attention mechanisms, and hybrid CNN-LSTM classification to improve disease localization, classification, and severity estimation.
-
-Unlike conventional CNN-based disease classification systems that process the entire image, DeepLeafAnalyzer first identifies disease-relevant regions using **U-Net segmentation** and **YOLOv5 object detection**. The extracted ROI is then processed by the proposed **HybridLeafDiseaseNet** architecture consisting of:
 
 - Feature Pyramid Networks (FPN)
 - Atrous Spatial Pyramid Pooling (ASPP)
@@ -22,7 +17,7 @@ The framework is designed for precision agriculture applications, enabling:
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 - Dual-stage ROI extraction using U-Net and YOLOv5
 - ROI fusion for precise disease localization
@@ -37,7 +32,7 @@ The framework is designed for precision agriculture applications, enabling:
 
 ---
 
-## 📊 System Workflow
+##  System Workflow
 
 ```text
 Input Leaf Image
@@ -75,7 +70,7 @@ Disease Class + Confidence + Severity
 
 ---
 
-## 📂 Supported Datasets
+##  Supported Datasets
 
 | Dataset | Description |
 |----------|-------------|
@@ -85,7 +80,7 @@ Disease Class + Confidence + Severity
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 DeepLeafAnalyzer/
@@ -128,7 +123,7 @@ DeepLeafAnalyzer/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ### Clone Repository
 
@@ -152,7 +147,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📦 Main Dependencies
+##  Main Dependencies
 
 ```text
 torch>=2.1.0
@@ -172,7 +167,7 @@ Pillow
 
 ---
 
-## 🗂 Dataset Preparation
+## Dataset Preparation
 
 ```text
 data/raw/
@@ -207,7 +202,7 @@ data/annotations/
 
 ---
 
-## 🏋️ Training Pipeline
+##  Training Pipeline
 
 ### Step 1: Train U-Net Segmentation
 
@@ -259,7 +254,7 @@ outputs/checkpoints/best_hybridleaf.pth
 
 ---
 
-## 📈 Evaluation
+##  Evaluation
 
 ```bash
 python src/evaluate.py
@@ -284,7 +279,7 @@ outputs/results/
 
 ---
 
-## 🔍 Explainability
+##  Explainability
 
 Generate Grad-CAM visualizations:
 
@@ -300,7 +295,7 @@ outputs/figures/gradcam/
 
 ---
 
-## 🧠 Inference
+##  Inference
 
 ```bash
 python src/inference.py --image sample_leaf.jpg
@@ -316,7 +311,7 @@ Severity      : Severe
 
 ---
 
-## 📉 Disease Severity Estimation
+##  Disease Severity Estimation
 
 | Confidence Score | Severity |
 |------------------|----------|
@@ -326,7 +321,7 @@ Severity      : Severe
 
 ---
 
-## 🔬 Experimental Configuration
+##  Experimental Configuration
 
 | Parameter | Value |
 |------------|--------|
@@ -341,7 +336,7 @@ Severity      : Severe
 
 ---
 
-## 📊 Generated Outputs
+##  Generated Outputs
 
 | File | Description |
 |--------|-------------|
@@ -356,7 +351,7 @@ Severity      : Severe
 
 ---
 
-## 🎯 Research Contributions
+##  Research Contributions
 
 1. Dual-stage ROI optimization using segmentation and object detection.
 2. Multi-scale disease representation using FPN and ASPP.
@@ -368,7 +363,7 @@ Severity      : Severe
 
 ---
 
-## 🔄 Reproducibility
+##  Reproducibility
 
 - Fixed random seeds for NumPy, PyTorch, and Python.
 - Version-controlled model checkpoints.
@@ -379,7 +374,7 @@ Severity      : Severe
 
 ---
 
-## 🚀 Future Extensions
+##  Future Extensions
 
 - Mobile deployment using TensorFlow Lite.
 - Edge AI deployment on Jetson Nano and Raspberry Pi.
@@ -390,7 +385,7 @@ Severity      : Severe
 
 ---
 
-## 📖 Citation
+##  Citation
 
 ```bibtex
 @article{DeepLeafAnalyzer2026,
@@ -403,18 +398,18 @@ Severity      : Severe
 
 ---
 
-## 📜 License
+##  License
 
 This project is released under the MIT License.
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 We acknowledge the PlantVillage, FieldPlant, and AI Challenger communities for providing publicly accessible crop disease datasets that facilitated the development and evaluation of the DeepLeafAnalyzer framework.
 
 ---
 
-## 📬 Contact
+##  Contact
 
 For research collaboration, implementation support, or issue reporting, please create a GitHub Issue in this repository.
